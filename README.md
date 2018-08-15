@@ -7,7 +7,7 @@ A basic web scraper which locates a table via google search then extracts the da
 
 ```
 npm install
-npm start (or just node HDSA.js)
+npm start (or just node hdsa.js)
 ```
 
 ### Dependencies
