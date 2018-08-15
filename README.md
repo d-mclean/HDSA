@@ -1,5 +1,4 @@
-HDSA
-HubDoc Skills Assessment Assignment
+HubDoc Skills Assessment (HDSA) Assignment
 =====================
 
 A basic web scraper which locates a table via google search then extracts the data and outputs the results as a CSV file.
