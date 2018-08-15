@@ -14,6 +14,7 @@ const fs = require('fs');
 // Notify user when starting.
 console.log('Starting Web Scraper...')
 
+// Start the web scraper.
 let webscraper = async () => {
     // Setup browser/page to handle the google search and other navigation.
     const browser = await puppeteer.launch({headless: false});
@@ -32,7 +33,7 @@ let webscraper = async () => {
     // Wait for results from Google.
     await page.waitForSelector('h3 a');
     
-    // Click on the first result from the Google search.
+    // Click on the first page from the Google search results.
     const datapage = await page.$$('h3 a');
     await datapage[0].click();
 
