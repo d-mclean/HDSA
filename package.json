@@ -1,0 +1,28 @@
+{
+  "name": "hdsa",
+  "version": "1.0.0",
+  "description": "HubDoc Skills Assessment Assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "node HDSA.js",
+    "start": "node HDSA.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d-mclean/HDSA.git"
+  },
+  "keywords": [
+    "HubDoc",
+    "Skills",
+    "Assessment"
+  ],
+  "author": "Darcy McLean",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/d-mclean/HDSA/issues"
+  },
+  "homepage": "https://github.com/d-mclean/HDSA#readme",
+  "dependencies": {
+    "puppeteer": "^1.7.0"
+  }
+}
