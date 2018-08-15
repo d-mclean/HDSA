@@ -17,7 +17,7 @@ console.log('Starting Web Scraper...')
 // Start the web scraper.
 let webscraper = async () => {
     // Setup browser/page to handle the google search and other navigation.
-    const browser = await puppeteer.launch({headless: false});
+    const browser = await puppeteer.launch({headless: true});
     const page = await browser.newPage();
 
     // Navigate to google for searching in an appropriate sized window.
