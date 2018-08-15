@@ -1,3 +1,5 @@
+/* Test file that goes to google.com and takes a screenshot. */
+
 const puppeteer = require('puppeteer');
 
 async function getPic() {
